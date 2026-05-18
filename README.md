@@ -10,7 +10,7 @@ I have no experience
 
 ## Experiene with HTML/CSS/Javascript
 
-I have only ever experimented with the following: 
+I have only worked with the following: 
 
 * html 
 * css 
@@ -36,7 +36,7 @@ via their website or any combination. <br>
 
 I'm an artist! 
 
-<image src= "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/TCIPB3JQXREQXFYSJQ4YHO73ZU.png&w=1200" alt= "Bob Ross Painting"/>
+<image src= "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/TCIPB3JQXREQXFYSJQ4YHO73ZU.png&w=1200"  alt= "Bob Ross Painting"/>
 
 
 
