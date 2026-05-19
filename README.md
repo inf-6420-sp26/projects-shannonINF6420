@@ -6,7 +6,9 @@ with a concentration in Archives.
 
 ## Experience in Web Creation and Design 
 
-I have no experience 
+I have no experience. <br>
+In fact, I'm going over these modules to make <br> sure I've got everything because <br> 
+I'm getting lost by the "Managing Files" segment. (I'm still working through it.)
 
 ## Experiene with HTML/CSS/Javascript
 
