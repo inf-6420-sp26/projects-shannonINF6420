@@ -40,5 +40,7 @@ I'm an artist!
 
 <image src= "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/TCIPB3JQXREQXFYSJQ4YHO73ZU.png&w=1200"  alt= "Bob Ross Painting"/>
 
+"git add <.gitignore>"
+
 
 
