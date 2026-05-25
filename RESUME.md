@@ -3,7 +3,7 @@
 ## ShannonNoah95@gmail.com <br> (240) 439-9047/ Frederick, MD 
 
 
-![headshot of shannon noah](Picture.jpg)
+![headshot of shannon noah](resume/images/Picture.jpg)
 
 
 ## Education ## 
