@@ -1,10 +1,43 @@
 header {
     font-weight:200 bold;
     font-family: 'Lucida Console';
-    background-color: rgb(156, 198, 186)
+    background-color: rgb(156, 198, 186);
+    
+    justify-content: center; 
+    align-items: center;     
 }
+
+
+
+Main{
+    font-family: 'Helvetica'; 
+    background-color: rgb(156, 198, 186);
+    margin: auto;
+    width: 50%;   
+    justify-content: center;
+    height: 950px;
+    border: 2px solid rgb(6, 0, 128); 
+       
+}
+
+Body{
+    background: rgb(156, 198, 186);
+}
+
 h1 {
     color:rgb(0, 0, 0);
     text-align: center;
     text-shadow: 2px 2px 5px rgb(255, 255, 255);
+}
+
+.p1 {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+   
+}
+
+item {
+padding: 20px;
+background: lightblue;
 }
