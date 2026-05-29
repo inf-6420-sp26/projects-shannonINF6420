@@ -1,0 +1,10 @@
+header {
+    font-weight:200 bold;
+    font-family: 'Lucida Console';
+    background-color: rgb(156, 198, 186)
+}
+h1 {
+    color:rgb(0, 0, 0);
+    text-align: center;
+    text-shadow: 2px 2px 5px rgb(255, 255, 255);
+}
