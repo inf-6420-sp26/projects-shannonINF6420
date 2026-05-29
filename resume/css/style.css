@@ -3,8 +3,7 @@ header {
     font-family: 'Lucida Console';
     background-color: rgb(156, 198, 186);
     
-    justify-content: center; 
-    align-items: center;     
+    
 }
 
 
@@ -32,8 +31,7 @@ h1 {
 
 .p1 {
     display: flex;
-    justify-content: center; 
-    align-items: center; 
+    
    
 }
 
@@ -46,6 +44,3 @@ footer{
     text-align: center;
 }
 
-img {
-    border: 0;
-}
