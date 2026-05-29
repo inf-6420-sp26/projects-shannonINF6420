@@ -15,7 +15,7 @@ Main{
     width: 50%;   
     justify-content: center;
     height: 950px;
-    border: 2px solid rgb(6, 0, 128); 
+    border: 2px dotted rgb(255, 255, 255); 
        
 }
 
@@ -43,4 +43,5 @@ background: lightblue;
 footer{
     text-align: center;
 }
+
 
