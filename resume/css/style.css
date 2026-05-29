@@ -45,3 +45,7 @@ background: lightblue;
 footer{
     text-align: center;
 }
+
+img {
+    border: 0;
+}
