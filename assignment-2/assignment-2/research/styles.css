@@ -1,0 +1,57 @@
+header{ 
+    background-color: rgb(83, 233, 83);
+    width: 1000;
+    height: auto;
+    text-align: center;
+   
+}
+
+body{
+    
+    background-image: url("C:\Users\shann\OneDrive\Desktop\College\Intro to Web Dev\assignment-2\images\frutiger-aero.png");
+    background-color: transparent;
+    background-repeat: no-repeat;
+    
+}
+div {
+    width: 100%;
+    height: 500px;
+    background-image: url("C:\Users\shann\OneDrive\Desktop\College\Intro to Web Dev\assignment-2\images\frutiger-aero.png");
+}
+
+
+main{
+    background-color: white;
+    text-align: left;
+    width: 75%;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    width: 2000 px;
+    justify-content: center;
+    height: auto;
+    
+
+}
+
+.row {
+        width: 100%;
+        display: table;
+        table-layout: fixed;
+    }
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+}
+
+footer{
+    text-align: center;
+}
+
