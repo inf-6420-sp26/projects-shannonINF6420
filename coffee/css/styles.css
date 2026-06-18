@@ -76,11 +76,43 @@ main{
 footer{
     background-color:#3E1305;
     color: white;
-
 }
 
-#linkdin-icon{
+.footer-row{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:12px;
+    flex-wrap:wrap;
     
 }
-#facebook-icon{
+
+svg{
+    display:inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 34px;
+    height: 34px;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+
+    
 }
+
+
+
+ svg{
+    width: 16px;
+    height: 16px;
+    fill:currentColor;
+     display:inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 34px;
+    height: 34px;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+}
+
