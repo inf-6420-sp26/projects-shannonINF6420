@@ -22,6 +22,15 @@ header{
   
 }
 
+.motto{
+    font-style: italic;
+    font-size: medium;
+}
+
+h1{
+    font-weight: 300;
+}
+
     
 body{
     margin: 0;
@@ -79,11 +88,12 @@ footer{
 }
 
 .footer-row{
-    display:flex;
+    
     justify-content:space-between;
-    align-items:center;
-    gap:12px;
-    flex-wrap:wrap;
+    align-items: center;
+    font-size: 14px;
+    
+    
 }
 
  svg{
@@ -92,12 +102,10 @@ footer{
     display:inline-flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid white;
-    border-radius: 50%;
+    height: 30px;
+    Width: 30px;
     color: white;
     }
 
-.linkden-icon svg{
-    width: 16px;
-    height: 16px;
-}
+
+
