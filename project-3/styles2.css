@@ -1,0 +1,39 @@
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+    flex-wrap: nowrap;
+
+}
+
+
+.container2{
+    display:flex;
+    flex-direction: column;
+}
+
+.container div.left{
+    display:flex;
+    align-content: flex-start;
+    
+}
+
+.container div.right{
+    display:flex;
+    align-content: flex-end;
+   
+}
+
+.container div.content{
+    display:flex;
+    align-content: center;
+}
+
+.container div.banner{
+    display:flex;
+}
+
+body{
+    background-image: url(..\stone-wall.jpg);
+}
+
