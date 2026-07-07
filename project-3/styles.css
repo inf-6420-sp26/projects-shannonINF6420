@@ -1,0 +1,29 @@
+
+body{
+    background-color: black;
+}
+
+.enter{
+    color:red;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);    
+}
+
+a:link{
+    color: red;
+}
+
+
+.container{
+    background-image: url("https://64.media.tumblr.com/b7d2aba691420d343535533e7effc816/3f49a95703a3df32-64/s400x600/d05b9e68e2c4478a8e39ec32f71ce6b19e968f7b.gifv");
+    align-content: center;
+    background-repeat: no-repeat;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 35%;
+    margin-right:35%;
+}
+
+
