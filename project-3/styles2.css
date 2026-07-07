@@ -31,9 +31,19 @@
 
 .container div.banner{
     display:flex;
+    font-family: "UnifrakturCook", cursive;
+    font-weight: 700;
+    font-style: normal;
+    color:red;
 }
 
 body{
-    background-image: url(..\stone-wall.jpg);
+    background-image: url(project-3\images\stone-wall.jpeg);
 }
 
+header{
+    font-family: "UnifrakturCook", cursive;
+    font-weight: 700;
+    font-style: normal;
+    color:red;
+}
