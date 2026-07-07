@@ -1,30 +1,25 @@
-
 body{
-    background-color: black;
+    background-color:black;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 10%;
+    padding-bottom:10%;
+
 }
+
+
 
 .enter{
     color:red;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-      
+    position: relative;
+    background:  url("https://64.media.tumblr.com/b7d2aba691420d343535533e7effc816/3f49a95703a3df32-64/s640x960/c92b9e07c30f6b8108e78d5a90cd4e1f61ae58d9.gifv");
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 40%;
+
 }
 
 a:link{
-    color: red;
+    color:red;
 }
-
-
-.container{
-    background-image: url("https://64.media.tumblr.com/b7d2aba691420d343535533e7effc816/3f49a95703a3df32-64/s400x600/d05b9e68e2c4478a8e39ec32f71ce6b19e968f7b.gifv");
-    align-content: center;
-    background-repeat: no-repeat;
-    margin-top: 10%;
-    margin-bottom: 10%;
-    margin-left: 35%;
-    margin-right:35%;
-}
-
 
