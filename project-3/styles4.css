@@ -1,0 +1,82 @@
+
+   header{
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+    border:2px solid black;
+    
+
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 1%;
+    padding-bottom:1%;
+    
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+div.navigation{
+    display:grid;
+    flex-direction:row;
+    grid-template-columns: repeat(3, 1fr);
+    
+
+    gap:30px;
+    border:2px solid black;
+    
+
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5%;
+    padding-bottom:5%;
+    
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 1%;
+    margin-bottom: 5%;
+}
+
+div.banner{
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+    border:2px solid black;
+    
+
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5%;
+    padding-bottom:5%;
+    
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    margin-bottom: 1%;
+}
+
+body{
+
+    border:2px solid black;
+    
+
+    
+}
+
+main{
+    border:2px solid black;
+    
+
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 1%;
+    padding-bottom:1%;
+    
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+}
+
