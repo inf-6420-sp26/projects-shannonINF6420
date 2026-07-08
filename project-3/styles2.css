@@ -3,6 +3,8 @@
     justify-content: space-evenly;
     gap: 30px;
     flex-wrap: nowrap;
+    background-color: black;
+    
 
 }
 
@@ -27,7 +29,42 @@
 .container div.content{
     display:flex;
     align-content: center;
+    
+    color: white;    
+    background-color: black;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+  
+
 }
+
+
+
+.container div.blood{
+    display: flex;
+    background-repeat: repeat-x;
+    background-image: url(https://64.media.tumblr.com/64123c9ade89a270558ba19477cde3f4/137bb859cbd6e309-79/s540x810/a620fba15f4c3b92dfde733fe9e2bcaa3a64c66b.gifv);
+}
+
+a.link{
+    color:red;
+}
+
+h1{
+    font-family: "UnifrakturCook", cursive;
+    font-weight: 700;
+    font-style: normal;
+    color:red;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background: black;
+    
+}
+
 
 .container div.banner{
     display:flex;
@@ -35,15 +72,25 @@
     font-weight: 700;
     font-style: normal;
     color:red;
+    background-color: black;
+    width:50%;
+    
+   
 }
 
 body{
-    background-image: url(project-3\images\stone-wall.jpeg);
-}
+    background-image: url(images/stone-wall.jpeg);
+    }
 
-header{
+head{
     font-family: "UnifrakturCook", cursive;
     font-weight: 700;
     font-style: normal;
     color:red;
+    background-color: black;
+}
+
+footer{
+    background-image: url(https://64.media.tumblr.com/838c6104185d3bab62a51f466baf8cea/3a4afd1f4ad7903d-d8/s400x600/328494ff5fafbb7f41211886ecaeb70204a16be9.pnj);
+    background-repeat: repeat-x;
 }
