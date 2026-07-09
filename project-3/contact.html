@@ -36,25 +36,39 @@
         
         <div class="content">
             <center>
-            <form action="action_page.php">
+            <form action="https://api.web3forms.com/submit" method="post" class="contact">
+                <input type="hidden" name="access_key" value="a7ed19dc-ac92-459f-87ee-37d6740bfda1">
+                <div>
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Your name.."><br><br>
+                </div>
 
-                <label for="fname">First Name</label><br>
-                <input type="text" id="fname" name="firstname" placeholder="Your name.."><br><br>
+                <div>
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name.."><br><br>
+                </div>
 
-                <label for="lname">Last Name</label><br>
-                <input type="text" id="lname" name="lastname" placeholder="Your last name.."><br><br>
+                <div>
+                    <label for="email">Your Email</label>
+                    <input type="text" id="poc" name="poc" placeholder="So I can respond back.."><br><br>
+                </div>
 
-                <label for="country">Country</label><br>
-                <select id="country" name="country">
-                <option value="australia">Australia</option>
-                <option value="canada">Canada</option>
-                <option value="usa">USA</option>
-                </select><br><br>
+                <div>
+                    <label for="country">Country</label>
 
-                <label for="subject">Subject</label><br>
-                <textarea id="subject" name="subject" placeholder="Write something.." style="height: 200px; width: 80%;"></textarea><br><br>
+                    <select id="country" name="country">
+                    <option value="australia">Australia</option>
+                    <option value="canada">Canada</option>
+                    <option value="usa">USA</option>
+                    </select><br><br>
+                </div>
 
-                <input type="submit"  value="SUBMIT EMAIL TO: ShannonNoah95@wayne.edu" <a href="ShannonNoah95@wayne.edu">
+                <div>
+                    <label for="subject">Subject</label><br>
+                    <textarea id="subject" name="subject" placeholder="Write something.." style="height: 200px; width: 80%;"></textarea><br><br>
+                </div>
+                
+                <input type="submit"  value="Submit" a href="ih1482@wayne.edu">
             </form>
             </center>
         </div>
