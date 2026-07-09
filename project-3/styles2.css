@@ -4,8 +4,6 @@
     gap: 30px;
     flex-wrap: nowrap;
     background-color: black;
-    
-
 }
 
 
@@ -36,8 +34,6 @@
     padding-top: 10px;
     padding-left: 15px;
     padding-right: 15px;
-  
-
 }
 
 
@@ -61,8 +57,7 @@ h1{
     padding-top: 10px;
     padding-left: 15px;
     padding-right: 15px;
-    background: black;
-    
+    background: black;    
 }
 
 
@@ -73,9 +68,7 @@ h1{
     font-style: normal;
     color:red;
     background-color: black;
-    width:50%;
-    
-   
+    width:50%;   
 }
 
 body{

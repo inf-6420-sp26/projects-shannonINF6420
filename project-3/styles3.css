@@ -164,3 +164,25 @@ footer div.skeletonright{
 a:link{
     color:red;
 }
+
+
+
+@media (min-width: 768px) {
+  body {
+    background-image: url(images/stone-wall.jpg); 
+    font-size: 18px; 
+  }
+
+  header{
+    background-image: url(images/tapestry.png);
+    background-size: 50%;
+  }
+
+  h1{
+    font-size: 14px;
+  }
+
+  .mobile-call-icon {
+    display: none; /* hide mobile call icon */
+  }
+}
