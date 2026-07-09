@@ -153,3 +153,22 @@ h2{
     font-size:30px;    
 }
 
+@media (min-width: 768px) {
+  body {
+    background-image: url(images/stone-wall.jpg); 
+    font-size: 18px; 
+  }
+
+  header{
+    background-image: url(images/tapestry.png);
+    background-size: 50%;
+  }
+
+  h1{
+    font-size: 14px;
+  }
+
+  .mobile-call-icon {
+    display: none; /* hide mobile call icon */
+  }
+}
