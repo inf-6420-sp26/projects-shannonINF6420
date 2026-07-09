@@ -3,8 +3,6 @@
     display: flex;
     flex-direction: column;
     gap:30px;
-    
-    
 
     padding-left: 1%;
     padding-right: 1%;
@@ -16,11 +14,7 @@
     margin-top: 5%;
     margin-bottom: 5%;
 
-    
-
 }
-
-
 
 div.navigation{
     display:grid;
@@ -50,9 +44,6 @@ div.banner{
     display: flex;
     flex-direction: column;
     gap:30px;
-    
-    
-    
 
     padding-left: 5%;
     padding-right: 5%;
@@ -77,9 +68,10 @@ body{
 main{
     display:flex;
     flex-direction: row;
-    justify-content: center;    
-    gap:15px;
-    background-color: black;
+    justify-content: center;
+   
+    gap:100px;
+    
 
     padding-left: 1%;
     padding-right: 1%;
@@ -90,40 +82,50 @@ main{
     margin-right: 5%;
     margin-top: 5%;
     margin-bottom: 5%;
+
 }
 
 .content{
     display:grid;
     flex-direction: column;
     gap:2px;
+
+    background-color: black;
     color:red;
+    padding-left: 10px;
+    padding-right:10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    width:30%;
+    height:auto;
 }
 
-.nosforatu{
+.left{
     justify-content: flex-start;
     
 }
 
-.nosforatu2{
+.right{
     justify-content: flex-end; 
-    
 }
+   
 
 body{
-    background-image: url(images/stone-wall.jpg)
+    background-image: url(images/stone-wall.jpg);
 }
 
-footer{  
+footer{
+    border:2px solid transparent;
+    color:red;
+    font-weight: bolder;
+    font-size: 48;
+    background-image: url(https://64.media.tumblr.com/838c6104185d3bab62a51f466baf8cea/3a4afd1f4ad7903d-d8/s400x600/328494ff5fafbb7f41211886ecaeb70204a16be9.pnj);
+    background-repeat: repeat-x;
+}
 
-    padding-left: 1%;
-    padding-right: 1%;
-    padding-top: 1%;
-    padding-bottom:1%;
-    
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-top: 5%;
-    margin-bottom: 5%;
+a:link{
+    color:red;
 }
 
 h1{
@@ -131,7 +133,13 @@ h1{
     font-weight: 700;
     font-style: normal;
     color:red;
-    font-size: 80px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size:80px;
+  
+    
 }
 
 h2{
@@ -139,23 +147,12 @@ h2{
     font-weight: 700;
     font-style: normal;
     color:red;
-   
-}
-
-
-.footer{
-    display:flex;
-    justify-content: center;
-    flex-direction: row;
-}
-
-footer div.skeletonleft{
-    display:flex;
-    justify-content: flex-start;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size:30px;
+  
     
 }
 
-footer div.skeletonright{
-    justify-content: flex-end;
-    transform: scaleX(-1);
-}
