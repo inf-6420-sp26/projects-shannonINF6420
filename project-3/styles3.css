@@ -25,10 +25,10 @@
 div.navigation{
     display:grid;
     flex-direction:row;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     
 
-    gap:30px;
+    gap:5px;
 
     padding-left: 1%;
     padding-right: 1%;
