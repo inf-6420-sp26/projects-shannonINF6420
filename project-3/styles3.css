@@ -159,3 +159,7 @@ footer div.skeletonright{
     justify-content: flex-end;
     transform: scaleX(-1);
 }
+
+a:link{
+    color:red;
+}
