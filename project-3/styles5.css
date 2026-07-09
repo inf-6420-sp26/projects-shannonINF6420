@@ -155,3 +155,82 @@ h2{
 
 
 
+@media (min-width: 768px) {
+  
+        
+    header{
+        background-size:
+    }
+
+    div.navigation{
+        gap:1%;       
+    }
+
+    div.banner{
+        background-image: url(images/tapestry.png);
+        background-size: 150%;
+        background-repeat: no-repeat;
+        background-size:contain;
+        background-position: center;
+    }
+
+    body{
+        
+    }
+
+    main{    
+        gap:100px;
+        width:max-content;
+        height: auto;
+    }
+
+    .content{
+        display:grid;
+        flex-direction: column;
+        gap:2px;
+
+        background-color: black;
+        color:red;
+        padding-left: 10px;
+        padding-right:10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+
+        width:30%;
+        height:auto;
+    }
+
+    .left{
+        justify-content: flex-start;
+        
+    }
+
+    .right{
+        justify-content: flex-end; 
+    }
+    
+
+    body{
+        background-image: url(images/stone-wall.jpg);
+    }
+
+    footer{        
+        background-repeat: no-repeat;
+    }
+
+    a:link{
+        color:red;
+    }
+
+    h1{
+        font-size: 100px;
+    }
+
+    h2{        
+        font-size:60px;    
+    }
+        
+    .mobile-call-icon {
+        display: none; 
+  }
+}
