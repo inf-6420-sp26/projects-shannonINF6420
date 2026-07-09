@@ -19,10 +19,10 @@
     <center>
         <div class="navigation">
             <div class= "Index"><a href="..\resume\index.html">Index</a></div>
-            <div class= "Exit"><a href="exit.html">Exit</a></div>            
+            <div class= "Exit"><a href="exit.html">Exit</a></div>  
+            <div class= "Home"><a href="home.html">Home</a></div>            
             <div class= "Movies"><a href="movies.html">Movies</a></div>  
-            <div class= "Writing"><a href="writing.html">Writing</a></div> 
-            <div class= "Contact"><a href="contact.html">Writing</a></div> 
+            <div class= "Writing"><a href="writing.html">Writing</a></div>             
         </div>
     </center>
 
@@ -35,18 +35,30 @@
         </div>
         
         <div class="content">
-            <h2>Welcome Stranger...</h2>
-            <p>...to the spooky side of the web. This humble website will introduce you to... <br>
-                            ...terror...<br>                 
-                                  ...the uncanny... <br>
-                                    ...the abysmal dark...<br>
-                                       ...and all unholy creatures residing therein!!!
-           </p>
+            <center>
+            <form action="action_page.php">
 
-           <p>This website is dedicated to teaching how to scare and be scared through the craft of writing.
-            Please feel free to peruse the how-to guides, resources, and inspiration this crypt has to offer.</p>
+                <label for="fname">First Name</label><br>
+                <input type="text" id="fname" name="firstname" placeholder="Your name.."><br><br>
+
+                <label for="lname">Last Name</label><br>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name.."><br><br>
+
+                <label for="country">Country</label><br>
+                <select id="country" name="country">
+                <option value="australia">Australia</option>
+                <option value="canada">Canada</option>
+                <option value="usa">USA</option>
+                </select><br><br>
+
+                <label for="subject">Subject</label><br>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height: 200px; width: 80%;"></textarea><br><br>
+
+                <input type="submit"  value="SUBMIT EMAIL TO: ShannonNoah95@wayne.edu" <a href="ShannonNoah95@wayne.edu">
+            </form>
+            </center>
+        </div>
         
-        </div> 
 
         <div class="right">
              <img src="https://64.media.tumblr.com/913cc2ed9f3809f153467334417ba091/21cce99fd95a8bd0-d8/s100x200/6788af426efcacdead93f0fd69bc4c0d0654cf6a.gifv" width="150%" >
