@@ -24,11 +24,12 @@
 
 div.navigation{
     display:grid;
-    flex-direction:row;
+    flex-direction:column;
     grid-template-columns: repeat(4, 1fr);
     
+    
 
-    gap:5px;
+    gap:5%;
 
     padding-left: 1%;
     padding-right: 1%;
@@ -40,7 +41,7 @@ div.navigation{
    
 
     width: auto;
-    height: 30px;
+    height: auto;
 
     color:red;
     background-color:black;
