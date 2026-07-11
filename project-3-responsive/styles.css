@@ -1,0 +1,253 @@
+
+    * {
+        box-sizing: border-box;
+    }
+
+    header{
+        margin-top: 1%;
+        color:red;
+        background-image: url("images/tapestry.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        
+        
+        
+    }
+
+    ul{
+        display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        gap:10px;
+        color:red;
+    }
+
+    .banner {
+        padding: 15px;
+        height: 300px;
+        width:600px;
+        text-align:center;
+        
+        
+        color:red;
+        
+        
+    }
+
+    nav{
+        display:flex;
+        justify-content: space-evenly;
+        width: 50%;
+       
+        flex-wrap: wrap;
+        color:red;
+        background-color: black;
+    }
+
+    a{
+        color:red;
+    }
+
+    @media (min-width:300px){
+            nav{
+                gap:10px; 
+                padding: 1px;     
+            }
+        }
+
+        @media (min-width: 900px){
+            nav{
+                gap: 20px; 
+                padding: 5px;  
+            }
+        }    
+
+    main{
+        display: flex;
+        justify-content: space-evenly;
+       
+        width: 80%;
+        align-items: center;
+        color:red;     
+        
+    }
+
+        @media (min-width:300px){
+            main{
+                display: flex;
+                flex-direction: column;
+                flex-wrap: wrap; 
+                gap: 1px;
+                padding-left:1%;
+                padding-right:1%;  
+                padding-top:1%;
+                padding-bottom:1%;        
+            }
+        }
+
+        @media (min-width: 900px){
+            main{
+                display: flex;
+                flex-direction: row;
+                flex-wrap: nowrap; 
+                gap: 5px;
+                margin-left:5%;
+                margin-right:5%;  
+                margin-top:5%;
+                margin-bottom:5%;   
+            }
+        }
+    
+    .content{ 
+        
+        padding:5px; 
+        flex: grow; 
+        color:red; 
+        background-color: black;         
+    }
+
+        @media (min-width: 300px){
+          .content{
+            width: 150px;
+            height:auto;
+
+          }  
+        }
+         @media (min-width: 800px){
+            .content{
+                width: 600px;
+                height:auto;
+
+            }
+        }
+
+    .left{
+         
+        background-image: url("");
+        background-size: contain; 
+        background-repeat: no-repeat;
+       
+        color: red;
+        
+    }
+
+        @media (min-width:300px){
+            .left{
+                margin-top: 1%; 
+                margin-bottom: 1%;          
+            }
+
+        }
+
+        @media (min-width: 900px){
+            .left{
+                justify-content: flex-start;                
+            }
+        }
+
+    .right{
+        
+        background-image: url("");
+        background-size: contain; 
+        background-repeat: no-repeat;
+     
+        color: red;
+        
+    }
+
+        @media (min-width:300px){
+            .right{   
+                margin-top: 1%; 
+                margin-bottom: 1%;          
+            }
+
+        }
+
+        @media (min-width: 800px){
+            .right{
+                justify-content: flex-end;                
+            }
+        }
+    
+    footer{
+        display:flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        border: 1px transparent;
+        width: 80%;
+        margin-bottom: 1%;
+        color: red;
+        background-size: contain;
+       
+    }
+
+       
+
+    body{       
+        height:auto;
+        width:auto;
+    }
+
+        @media (min-width:300px){
+                body{   
+                    background-color: black;          
+                }
+            }
+
+        @media (min-width: 800px){
+                body{
+                    background-image: url(images/stone-wall.jpg);                
+                }
+            }
+p{
+    text-align: left;
+}
+
+h1{
+    font-family: "UnifrakturCook", cursive;
+    font-weight: 700;
+    font-style: normal;
+}
+
+h2{
+    font-family: "UnifrakturCook", cursive;
+    font-weight: 700;
+    font-style: normal;
+}
+
+h3{
+    font-family: "UnifrakturCook", cursive;
+    font-weight: 700;
+    font-style: normal;
+}
+
+@media (min-width: 300px){
+    h1{
+        font-size: 40px;
+    }
+    h2{
+        font-size: 20px;
+    }
+
+}
+
+@media (min-width: 800px){
+    h1{
+
+        font-size:80px;
+    }
+    h2{
+        font-size: 40px;
+        
+    }
+
+}
+
+
+
+    
+  
