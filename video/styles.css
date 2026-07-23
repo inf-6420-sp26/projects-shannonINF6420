@@ -1,0 +1,145 @@
+body{
+    display:flex;
+    justify-content: center;
+    background-color: lightblue;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    background-color: pink;
+    align-items: center;
+}
+
+nav{
+    display: grid;
+    padding: 2px;
+    gap:50px;
+   
+}
+
+a{
+    color:white;
+    border-bottom: none;
+}
+
+main{
+    background-color: gray;
+}
+
+    .video-container{
+        display:grid;
+        border: 1px solid black;
+        padding: 15px;
+        gap: 10px;
+    }
+
+    ul{
+        list-style: none;
+        margin:0;
+        padding:0;
+    }
+
+
+    li{
+        display:flex;
+        flex-direction: row;
+        align-items: center;
+        gap:2px;
+    }
+
+    .icon{
+        border: 1px solid white;
+        background-color: white;
+        border-radius: 50%;
+        padding: 2px;
+    }
+
+   .video-1, .video-2, .video-3, .video-4, .video-5, .video-6{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: lightgray;
+        min-width: 50%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-radius: 10%;
+   }
+
+   .video-1:focus, .video-2:hover, .video-3:hover, .video-4:hover, .video-5:hover, .video-6:hover{
+        background:white;
+        box-shadow: 0 0 10px white;
+   }
+
+   
+
+   
+   
+footer{
+    background-color: aquamarine;
+}
+
+
+
+@media (min-width:300px){
+    header{
+        width:300px;
+
+    }
+
+    nav{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    main{
+        width:300px;
+
+    }
+    footer{
+        width:300px;
+
+    }
+    .video-container{
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (min-width:600px){
+    header{
+        width:600px;
+
+    }
+    nav{
+        grid-template-columns: repeat(4, 1fr);
+    }
+    main{
+        width:600px;
+
+    }
+    footer{
+        width:600px;
+
+    }
+    .video-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width:900px){
+    header{
+        width:900px;
+
+    }
+    nav{
+        grid-template-columns: repeat(4, 1fr);
+    }
+    main{
+        width:900px;
+
+    }
+    footer{
+        width:900px;
+    }
+    .video-container{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}

@@ -11,9 +11,11 @@
 
 <body>
     <header>
+        <center>
         <div class="banner">
             <p>banner</p>
-        </div>    
+        </div>  
+        </center>  
         
          <center>
         <nav>
@@ -39,15 +41,13 @@
                         
                         <img src="assets/images/video-1-frame1.jpg"></src>
                        
-                </div>
+                </div class="video1">
 
                 <center>
                     <h4>Bear Video</h4>
                 </center>
                 
                 <ul>
-                    
-
                     <li><div class="icon">
                         <svg  width="50" height="50" xmlns="svideo-icon.svg">
                         <circle cx="25" cy="25" r="15" stroke="transparent" stroke-width="1" fill="yellow" />
@@ -58,8 +58,7 @@
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     </div>
                     </li>
-
-                </li>
+                </ul>
                 
             </div>
             </center>
@@ -272,7 +271,7 @@
 
                 userId.message = userComment.value;
                 userId.date = new Date().toLocaleString();
-
+                
             }
 
             publishBtn.addEventListener("click", addPost)

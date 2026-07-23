@@ -3,17 +3,18 @@
 
 *{
     box-sizing: border-box;
+    padding: 10px;
 }
 body{
-    min-height: 100vh;
+
     display: flex;
+    flex: column;
+    flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
-    background:white;
-    border: 2px solid black;
-    width: auto;
-    height: auto;
-    
+    object-position: center;
+    align-content: center;
+    border:2px solid green;
+     
 }
 
 ul{
@@ -31,15 +32,15 @@ li{
     border: 1px solid red;
 }
 
-.icon{
-    height:40px;
-    width:40px;
-    justify-content: baseline;
-}
 
-svg{
-    width: 100px;
-    
+
+.ul > svg{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+    object-fit: cover;
+    object-position: center;
 }
 
 img{
@@ -50,17 +51,40 @@ img{
 
 
 header{
-    display: column;
-    align-content: center;
-    border:2px solid black;
-    padding:10px;
-    margin:10px;
-    position: fixed;
-    width: 95%;
-    height: auto;
-    background-color: white;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     
+    object-position: center;   
+   
+    padding:10px;
+   
+    
+    
+    background-color: white;    
+    border:2px solid black; 
+       
 }
+
+            @media (min-width: 300px){
+                header{
+                     min-width: 300px;
+            
+                }
+            }
+               @media (min-width: 700px){
+                header{
+                     min-width: 700px;
+                    margin-left:18%;
+                }
+            }
+               @media (min-width: 900px){
+                header{
+                    min-width: 900px;
+                    position: fixed;
+                    margin-left:18%;
+                }
+            }
 
 .banner{
     border: 2px solid black;
@@ -68,89 +92,100 @@ header{
 
 nav{
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
     border: 2px solid black;
     margin:5px;
     padding: 10px;
-    width: 50%;
-    height: 10%;
+   
 }
 
+                @media (min-width:300px){
+                    nav{
+                        grid-template-columns: repeat(2, 1fr);
+                    }
+                }
+                @media (min-width:900px){
+                    nav{
+                        grid-template-columns: repeat(4, 1fr);
+                    }
+                }
 
 
 main{
+    display: flex;
+    flex: column;
+    flex-wrap: wrap;
+    justify-content: center;
     border:2px solid black;
     padding:60px;
     margin: 10px;
-    margin-top: 15%;
-   
+    margin-top: 30%;
+    
+    object-position: center;
 }
+
+            @media (min-width: 300px){
+                main{
+                     min-width: 300px;
+                }
+            }
+               @media (min-width: 700px){
+                main{
+                     min-width: 700px;
+                }
+            }
+               @media (min-width: 900px){
+                main{
+                     min-width: 900px;
+                }
+            }
+
 
 
 .video-container {
     display:grid;
-    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
     border: 2px solid red;
     padding:30px;
+    min-width: 300px;
+    max-width: 1000px;
+    object-position: center;
 }
 
-.video-1{
-    border:2px solid red;
-    margin:10px;  
-    
-}
-.video-1:hover{
-    background-color: aquamarine;
-    border:aquamarine;    
+
+                @media (min-width:300px){
+                    .video-container{
+                        grid-template-columns: 1fr;
+                        min-width: 250px;
+                    }
+                }
+                @media (min-width: 700px){
+                    .video-container{
+                        grid-template-columns: repeat(2, 1fr);
+                        min-width: 650px;
+                    }
+                }
+
+                @media (min-width: 900px){
+                    .video-container{
+                        grid-template-columns: repeat(3, 1fr);
+                        min-width: 850px;
+                    }
+
+                }
+
+.video-1, .video-2, .video-3, .video-4, .video-5, .video-6{
+    border:2px solid black;
+    object-fit: contain;
+    margin: 10px; 
+    object-position: center;
 }
 
-.video-2{
-    border:2px solid black;
-    object-fit: contain;
-    margin: 10px;
-    
+.video-1:hover, .video-2:hover, .video-3:hover, .video-4:hover, .video-5:hover, .video-6:hover{
+    background-color: lightgray;
+    border:lightblue;
 }
-.video-2:hover{
-    background-color: aquamarine;
-    border:aquamarine;    
-}
-.video-3{
-    border:2px solid black;
-    object-fit: contain;
-    margin: 10px;
-   
-}
-.video-3:hover{
-    background-color: aquamarine;
-    border:aquamarine;    
-}
-.video-4{
-    border:2px solid black;
-    object-fit: contain;
-    margin: 10px;
-}
-.video-4:hover{
-    background-color: aquamarine;
-    border:aquamarine;    
-}
-.video-5{
-    border:2px solid black;
-    object-fit: contain;
-    margin:10px;
-}
-.video-5:hover{
-    background-color: aquamarine;
-    border:aquamarine;    
-}
-.video-6{
-    border:2px solid black;
-    object-fit: contain;
-    margin: 10px;
-}
-.video-6:hover{
-    background-color: aquamarine;
-    border:aquamarine;    
-}
+
+
 .comments{
     display:grid;
     grid-template-columns: repeat(1, 1fr);
