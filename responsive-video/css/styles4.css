@@ -1,5 +1,5 @@
 
-/width: min(92%, 900px)
+
 
 *{
     box-sizing: border-box;
@@ -198,6 +198,65 @@ footer{
     object-fit: cover;
     object-position: center;
 }
+
+.comment-as{
+    width: 100%;
+}
+
+.user{
+    border: none;
+    outline: none;
+    margin: 5px 0;
+    color: gray;
+    margin-left: 20px;
+    padding: 10px;
+}
+
+.comment-input > input{
+    border: none;
+    padding: 10px;
+    padding-left: 0;
+    outline: none;
+    border-bottom: 2px solid blue;
+    margin-bottom: 10px;
+    width: 95%;  
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: lightblue;
+}
+
+.buttons button{
+    padding: 5px 10px;
+    background: lightgray;
+    color: gray;
+    text-transform: uppercase;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.buttons button.abled{
+    background: blue;
+    color:white;
+}
+
+.notify{
+    margin-right: 10px;
+    display: flex;
+    align-content: center;
+}
+
+.notify > input{
+    margin-right: 5px;
+
+}
+
+
 
 .info-1{
     border:2px solid red;

@@ -220,8 +220,8 @@
                     <h2>Comment as:</h2>
                     <input type="text" value="Anonymous" class="user">
 
-                    <div class="input">
-                        <input type="text" placeholder="Enter Comment" class="user comment">
+                    <div class="comment-input">
+                        <input type="text" placeholder="Enter Comment" class="usercomment">
                         <div class="buttons">
                             <button type="submit"  disabled id="publish">Publish</button>
                             <div class="notify">
@@ -232,6 +232,52 @@
                 </div>
             </div>
         </div>
+
+        <script>
+            "use strict";
+            const userId = {
+                name: null,
+                identity: null,
+                image: null,
+                message: null,
+                date: null,
+            }
+
+            const userComment = document .querySelector (".usercomment");
+            const publishBtn = document .querySelector ("#publish");
+            const comments = document .querySelector (".comments");
+            const userName = document .querySelector ("user");
+
+            userComment.addEventListener("input", e => {
+                if(!userComment.value) {
+                    publishBtn.setAttribute("disabled" , "disabled");
+                    publishBtn.classList.remove("abled")
+                }else {
+                    publishBtn.removeAttribute("disabled");
+                    publishBtn.classList.add("abled")
+                }
+                })
+
+            function addPost(){
+                console.log("The button works!")
+                if(!userComment.value)return;
+                userId.name = userName.value;
+                if(userId.name === "Anonymous"){
+                    userId.identity = false;
+                    userId.image = "avatar-2.svg";
+                }else {
+                    userId.identity = true;
+                    userId.image = "avatar-2.svg"; 
+                }
+
+                userId.message = userComment.value;
+                userId.date = new Date().toLocaleString();
+
+            }
+
+            publishBtn.addEventListener("click", addPost)
+
+        </script>
         
     </main>
 
