@@ -13,7 +13,7 @@ ul{
     flex-direction: row;
     justify-items: baseline;
     list-style: none;
-    margin: 0;
+    margin: 5%;
     padding: 0;
 }
 
@@ -21,19 +21,23 @@ li{
     padding: 0;
     gap:0;
     border: 1px solid red;
-   
+}
+
+.icon{
+    height:40px;
+    width:40px;
+    justify-content: baseline;
 }
 
 svg{
     width: 100px;
+    
 }
 
 img{
-    object-fit: contain;
-    width:200px;
-    height:150px;
-   
-
+    padding: 5px;
+    width:90%;
+    height:40%;
 }
 
 
@@ -54,15 +58,17 @@ nav{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     border: 2px solid black;
-    margin:10px;
-    padding: 2px;
+    margin:5px;
+    padding: 10px;
+    width: 50%;
+    height: 10%;
 }
 
 
 
 main{
     border:2px solid black;
-    padding:10px;
+    padding:60px;
     margin: 10px;
    
 }
@@ -72,15 +78,15 @@ main{
     display:grid;
     grid-template-columns: repeat(3, 1fr);
     border: 2px solid red;
-    padding:10px;
+    padding:30px;
 }
 
 .video-1{
-    border:2px solid green;
+    border:2px solid red;
     margin:10px;  
 }
 .video-1:hover{
-    color:teal;
+    
 }
 
 .video-2{
