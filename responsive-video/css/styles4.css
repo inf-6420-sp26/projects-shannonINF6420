@@ -1,3 +1,6 @@
+
+/width: min(92%, 900px)
+
 *{
     box-sizing: border-box;
 }
@@ -47,6 +50,9 @@ header{
     border:2px solid black;
     padding:10px;
     margin: 10px;
+    position: fixed;
+    width: 100%;
+    height: auto;
     
 }
 
@@ -84,8 +90,12 @@ main{
 .video-1{
     border:2px solid red;
     margin:10px;  
+    min-width: 50%;
+    
 }
 .video-1:hover{
+    background-color: aquamarine;
+    border:white;
     
 }
 
