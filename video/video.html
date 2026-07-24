@@ -29,22 +29,53 @@
         <center>      
         <div class="video">
             <video controls  width="640" height="360" poster="assets/images/video-1-frame1.jpg">
-                 <source src="src/assets/video/video-1.mp4" type="video/mp4">
+                 <source src="assets/videos/video-1.mp4" type="video/mp4">
                   <p>Your browser does not support this video. <a href="../video-1.mp4">Click here to view the video directly.</a></p>
                   <track label="English" kind="captions" srclang="en" src="assets/captions/video-1.vtt" default>
             </video>
         </div>   
         </center>
 
-
+        <div class="video-content">
+            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, 
+                totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
+                Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni 
+                dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, 
+                consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat 
+                voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea 
+                ommodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur,
+                vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
+        </div>
 
     </main>
-
+    
     <footer>
-        <p>footer</p>
+        <div class="info-1">info-1</div>
+        <div class="info-2">info-2</div>
+        <div class="info-3">info-2</div>
     </footer>
    
 </body>
+
+<style>
+    main{
+        height: 100%;
+    }
+    .video{
+        width: 75%;
+    }
+    .video-content{
+        padding: 10px;
+        border: 2 px solid black;
+    }
+    .footer{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+
+    }
+    
+    
+</style>
 
 
 
