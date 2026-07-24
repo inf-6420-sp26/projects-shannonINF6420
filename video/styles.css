@@ -1,13 +1,13 @@
 body{
     display:flex;
     justify-content: center;
-    background-color: lightblue;
+    background-color: rgb(137, 165, 152);
 }
 
 header{
     display: flex;
     flex-direction: column;
-    background-color: pink;
+    background-color: gray;
     align-items: center;
 }
 
@@ -15,21 +15,47 @@ nav{
     display: grid;
     padding: 2px;
     gap:50px;
-   
+}
+
+.nav-link{
+    color:white;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+}
+
+.nav-link:hover,
+.nav-link:focus{
+    border-bottom-color: rgb(190, 188, 188);
+    outline: none;
 }
 
 a{
-    color:white;
-    border-bottom: none;
+    color:black;
+    text-decoration: none;
 }
+
 
 main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     background-color: gray;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5%;
 }
 
+    .video{
+        background-color: white;
+        border-radius: 5%;
+        object-fit: contain;
+        padding: 10px;
+    }
     .video-container{
         display:grid;
-        border: 1px solid black;
+        border: 1px solid rgb(190, 188, 188);
+        background-color: rgb(190, 188, 188);
+        border-radius: 5%;
         padding: 15px;
         gap: 10px;
     }
@@ -66,7 +92,7 @@ main{
         border-radius: 10%;
    }
 
-   .video-1:focus, .video-2:hover, .video-3:hover, .video-4:hover, .video-5:hover, .video-6:hover{
+   .video-1:hover, .video-2:hover, .video-3:hover, .video-4:hover, .video-5:hover, .video-6:hover{
         background:white;
         box-shadow: 0 0 10px white;
    }
@@ -83,7 +109,7 @@ footer{
 
 @media (min-width:300px){
     header{
-        width:300px;
+        width:330px;
 
     }
 
@@ -95,7 +121,7 @@ footer{
 
     }
     footer{
-        width:300px;
+        width:330px;
 
     }
     .video-container{
@@ -105,7 +131,7 @@ footer{
 
 @media (min-width:600px){
     header{
-        width:600px;
+        width:630px;
 
     }
     nav{
@@ -116,7 +142,7 @@ footer{
 
     }
     footer{
-        width:600px;
+        width:630px;
 
     }
     .video-container{
@@ -126,7 +152,7 @@ footer{
 
 @media (min-width:900px){
     header{
-        width:900px;
+        width:930px;
 
     }
     nav{
@@ -137,7 +163,7 @@ footer{
 
     }
     footer{
-        width:900px;
+        width:930px;
     }
     .video-container{
         grid-template-columns: repeat(3, 1fr);
