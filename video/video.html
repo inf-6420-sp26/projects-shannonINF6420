@@ -17,10 +17,10 @@
     <header>
         <p>header</p>
           <nav>
-                <div class="nav-link"><a href="">link</a></div>
-                <div class="nav-link"><a href="">link</a></div>
-                <div class="nav-link"><a href="">link</a></div>
-                <div class="nav-link"><a href="">link</a></div>
+                <div class="nav-link"><a href="index.html">Home</a></div>
+                <div class="nav-link"><a href="video.html">Next Video</a></div>
+                <div class="nav-link"><a href="video.html">Video 3</a></div>
+                <div class="nav-link"><a href="video.html">Video 4</a></div>
         </nav>
 
     </header>
@@ -28,10 +28,9 @@
     <main>
         <center>      
         <div class="video">
-            <video controls  width="640" height="360" poster="assets/images/video-1-frame1.jpg">
+            <video controls  width="100%" height="auto" poster="assets/images/video-1-frame1.jpg">
                  <source src="assets/videos/video-1.mp4" type="video/mp4">
-                  <p>Your browser does not support this video. <a href="../video-1.mp4">Click here to view the video directly.</a></p>
-                  <track label="English" kind="captions" srclang="en" src="assets/captions/video-1.vtt" default>
+                  <track label="English" kind="captions" srclang="en" src="/video/assets/captions/video-1.vtt" default>
             </video>
         </div>   
         </center>
@@ -50,30 +49,34 @@
     </main>
     
     <footer>
-        <div class="info-1">info-1</div>
+        <div class="info-1">
+            <ul>
+                <li><a href=>link</a></li>
+                <li><a href=>link</a></li>
+                <li><a href=>link</a></li>
+               
+            </ul>
+        </div>
         <div class="info-2">info-2</div>
-        <div class="info-3">info-2</div>
+         <div class="info-2"><h3>Video Logo</h3></div>
     </footer>
    
 </body>
 
 <style>
-    main{
-        height: 100%;
-    }
+   
     .video{
-        width: 75%;
+        min-width: 300px;
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 20px;
     }
-    .video-content{
-        padding: 10px;
-        border: 2 px solid black;
-    }
-    .footer{
-        display: grid;
-        grid-template-columns: repeat(3,1fr);
 
-    }
-    
+    .video-container video {
+        width: 100%; 
+        height: auto; 
+        display: block; 
+}
     
 </style>
 

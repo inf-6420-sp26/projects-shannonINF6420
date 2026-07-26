@@ -1,14 +1,18 @@
 body{
     display:flex;
     justify-content: center;
-    background-color: rgb(137, 165, 152);
+    background-color: white;
 }
 
 header{
     display: flex;
     flex-direction: column;
-    background-color: gray;
+    background-color: white;
     align-items: center;
+    border:3px solid blue;
+    border-radius: 5px;
+    width: 100%;
+    height:auto;
 }
 
 nav{
@@ -18,9 +22,15 @@ nav{
 }
 
 .nav-link{
-    color:white;
+    color:blue;
+    
     text-decoration: none;
     border-bottom: 2px solid transparent;
+}
+
+.picture{
+    display: flex;
+    justify-content: center;
 }
 
 .nav-link:hover,
@@ -40,24 +50,28 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: gray;
+    background-color: white;
     padding: 10px;
     margin-top: 10px;
-    border-radius: 5%;
+    border: 3px solid blue;
+    border-radius: 5px;
+    width: 100%;
+    height:auto;
+   
 }
 
     .video{
         background-color: white;
-        border-radius: 5%;
+       
         object-fit: contain;
         padding: 10px;
     }
     .video-container{
         display:grid;
-        border: 1px solid rgb(190, 188, 188);
-        background-color: rgb(190, 188, 188);
-        border-radius: 5%;
-        padding: 15px;
+        
+        background-color: white;
+        box-shadow:0 0 5px black;
+        padding: 30px;
         gap: 10px;
     }
 
@@ -76,8 +90,7 @@ main{
     }
 
     .icon{
-        border: 1px solid white;
-        background-color: white;
+        
         border-radius: 50%;
         padding: 2px;
     }
@@ -90,27 +103,39 @@ main{
         min-width: 50%;
         padding-top: 10px;
         padding-bottom: 10px;
-        border-radius: 10%;
+        padding: 10px;
    }
 
    .video-1:hover, .video-2:hover, .video-3:hover, .video-4:hover, .video-5:hover, .video-6:hover{
         background:white;
-        box-shadow: 0 0 10px white;
+        box-shadow: 0 0 5px black;
    }
 
-   
 
    
-   
 footer{
-    background-color: aquamarine;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: white;
+    padding: 10px;
+    margin-top: 10px;
+    border: 3px solid blue;
+    border-radius: 3px;
+    gap: 3px;
+    width: 100%;
+    height:auto;
+}
+
+.info-2{
+    justify-content: end;
 }
 
 
 
 @media (min-width:300px){
     header{
-        width:330px;
+        width:250px;
 
     }
 
@@ -118,11 +143,11 @@ footer{
         grid-template-columns: repeat(2, 1fr);
     }
     main{
-        width:300px;
+        width:250px;
 
     }
     footer{
-        width:330px;
+        width:250px;
 
     }
     .video-container{
@@ -132,18 +157,18 @@ footer{
 
 @media (min-width:600px){
     header{
-        width:630px;
+        width:550px;
 
     }
     nav{
         grid-template-columns: repeat(4, 1fr);
     }
     main{
-        width:600px;
+        width:550px;
 
     }
     footer{
-        width:630px;
+        width:550px;
 
     }
     .video-container{
@@ -153,18 +178,18 @@ footer{
 
 @media (min-width:900px){
     header{
-        width:930px;
+        width:850px;
 
     }
     nav{
         grid-template-columns: repeat(4, 1fr);
     }
     main{
-        width:900px;
+        width:850px;
 
     }
     footer{
-        width:930px;
+        width:850px;
     }
     .video-container{
         grid-template-columns: repeat(3, 1fr);
