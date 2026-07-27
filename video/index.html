@@ -11,7 +11,7 @@
 
 <body>
 
-
+<div class="container">
     <header>
         <h1>Responsive Videos</h1>
        
@@ -30,7 +30,7 @@
        <div class="video-container">
             <a href="video.html"><div class="video-1">
                 <ul>
-                    <div class=picture><li><img src="assets/images/video-1-frame1.jpg" width="200px" heigh="175px"></li></div>
+                    <div class=picture><li><img src="assets/images/video-1-frame1.jpg" width="200px" heigh="175px" alt="grizzly bear"></li></div>
                     <li><div><h3>Video</h3></div></li>
                     <li><div class= "icon">
                         <img src="assets/images/video-icon.svg" alt="">
@@ -43,7 +43,7 @@
 
             <div class="video-2">
                 <ul>
-                    <div class=picture><li><img src="assets/images/video-2-frame1.jpg" width="200px" heigh="175px"></li></div>
+                    <div class=picture><li><img src="assets/images/video-2-frame1.jpg" width="200px" heigh="175px" alt="horse"></li></div>
                     <li><div><h3>Video</h3></div></li>
                     <li><div class= "icon">
                         <img src="assets/images/video-icon.svg" alt="">
@@ -55,7 +55,7 @@
 
             <div class="video-3">
                 <ul>
-                    <div class=picture><li><img src="assets/images/video-3-frame1.jpg" width="200px" heigh="175px"></li></div>
+                    <div class=picture><li><img src="assets/images/video-3-frame1.jpg" width="200px" heigh="175px" alt="cat"></li></div>
                     <li><div><h3>Video</h3></div></li>
                     <li><div class= "icon">
                         <img src="assets/images/video-icon.svg" alt="">
@@ -67,10 +67,10 @@
 
             <div class="video-4">
                 <ul>
-                    <div class=picture><li><img src="assets/images/video-4-frame1.jpg" width="200px" heigh="175px"></li></div>
+                    <div class=picture><li><img src="assets/images/video-4-frame1.jpg" width="200px" heigh="175px" alt="dog"></li></div>
                     <li><div><h3>Video</h3></div></li>
                     <li><div class= "icon">
-                        <img src="assets/images/video-icon.svg" alt="">
+                        <img src="assets/images/video-icon.svg" alt="dog">
                     </div>
                     <div class="description"><p>Description will be placed here.</p></div>
                     </li>
@@ -106,98 +106,8 @@
            
 
         <div class="comment-container">
-            <div class="head"><h1>Post a Comment</h1></div>
-            <div><span id="comment">0</span>Comments</div>
-            <div class="text"><p>We are happy to hear from you.</p></div>
-            <div class="comments"></div>
-            <div class="comment-box">
-                <img src="assets/images/avatar-1.svg" alt="">
-                <div class="comment-as">
-                    <h2>Comment as:</h2>
-                    <input type="text" value="Anonymous" class="user">
-
-                    <div class="comment-input">
-                        <input type="text" placeholder="Enter Comment" class="usercomment">
-                        <div class="buttons">
-                            <button type="submit"  disabled id="publish">Publish</button>
-                            <div class="notify">
-                                <input type="checkbox" class="notifyinput"><span>Notify me</span></input>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            
         </div>
-
-
-        
-        <script>
-            "use strict";
-            const userId = {
-                name: null,
-                identity: null,
-                image: null,
-                message: null,
-                date: null,
-            }
-
-            const userComment = document.querySelector (".usercomment");
-            const publishBtn = document.querySelector ("#publish");
-            const comments = document.querySelector (".comments");
-            const userName = document.querySelector ("user");
-            const notify = document.querySelector (".notifyinput");
-
-            userComment.addEventListener("input", e => {
-                if(!userComment.value) {
-                    publishBtn.setAttribute("disabled" , "disabled");
-                    publishBtn.classList.remove("abled")
-                }else {
-                    publishBtn.removeAttribute("disabled");
-                    publishBtn.classList.add("abled")
-                }
-                })
-
-            function addPost(){
-                
-                if(!userComment.value) return;
-                userId.name = userName.value;
-                if(userId.name === "Anonymous"){
-                    userId.identity = false;
-                    userId.image = "avatar-3.svg";
-                }else {
-                    userId.identity = true;
-                    userId.image = "avatar-2.svg"; 
-                }
-
-                userId.message = userComment.value;
-                userId.date = new Date().toLocaleString();
-                let published = 
-                `<div class = "parents">
-                    <img src = "${userId.image}">
-                    <div>
-                        <h1>${userId.name}</h1>
-                        <p>${userId.message}</p>
-                        <div class= "engagements"><img src= "like.png" id="like"><img src="like.png" alt=""></div>
-                        <span class="date">${userId.date}</span>
-                    </div>
-                </div>`;
-
-                comments.innerHTML += published; 
-                userComment.value = "";
-                publishBtn.classList.remove("abled")
-
-                let commentsNum = document.querySelectorAll(".parents").length;
-                document.getElementById("comment").textContent = commentsNum;
-
-            }
-
-            publishBtn.addEventListener("click", addPost)
-
-        </script>
-      
-        
-
-
 
 
     </main>
@@ -215,8 +125,7 @@
         <div class="info-2"><h3>Video Logo</h3></div>
         <div class="info-3">info-3</div>
     </footer>
-
-
+    </div>
 
 
 
