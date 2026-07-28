@@ -9,7 +9,7 @@ body{
     padding:10px;
     margin-left:auto;
     margin-right: auto;
-    border: 1px solid red;
+    
 }
 
 header{
@@ -17,20 +17,39 @@ header{
     flex-direction: column;
     background-color: white;
     align-items: center;
-    border: 1px solid blue;
-    border-radius: 5px;
-    
+    border: 3px solid blue;
+    border-radius: 5px;    
     height:auto;
 }
+
+h1, h2{
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style:normal;
+    color:gray;  
+}
+
+h3{
+     font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style:normal;
+    color: blue;  
+}
+
 
 nav{
     display: grid;
     padding: 2px;
     gap:50px;
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    
+    font-style: normal;
+    color:gray;    
 }
 
 .nav-link{
-    color:blue;
+   
     text-decoration: none;
     border-bottom: 2px solid transparent;
 }
@@ -42,7 +61,7 @@ nav{
 
 .nav-link:hover,
 .nav-link:focus{
-    border-bottom-color: rgb(190, 188, 188);
+    border-bottom-color: red;
     outline: none;
 }
 
@@ -60,7 +79,7 @@ main{
     background-color: white;
     padding: 10px;
     margin-top: 10px;
-    border: 1px solid blue;
+    border: 3px solid blue;
     border-radius: 5px;
     
     height:auto;
@@ -127,7 +146,7 @@ footer{
     background-color: white;
     padding: 10px;
     margin-top: 10px;
-    border: 1px solid blue;
+    border: 3px solid blue;
     border-radius: 3px;
     gap: 3px;
    
@@ -141,6 +160,30 @@ footer{
 .comment-container{
     width:100%;
 }
+
+.comment-section{
+        
+        box-shadow: 0 0 5px black;
+        width: 100%;
+        padding: 10px;
+        margin-top:10px;
+        margin-bottom:10px;
+    }
+
+   .input{
+        display: flex;
+        flex-direction: row;
+        align-items: baseline;
+    }
+    .avatar{
+        width:20%;
+        padding: 5px;
+    }
+
+    .input{
+        width:75%;
+        height: 50%;
+    }
 
 
 @media (min-width:300px){
@@ -182,11 +225,16 @@ footer{
     }
      .container{
         min-width:850px;
+        max-width:850px;
     }
     .comment-container{
         min-width:850px;
+        max-width:850px;
     }
 }
+
+
+
 
 
 
