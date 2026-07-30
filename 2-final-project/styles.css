@@ -1,29 +1,10 @@
-.singluarity{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    border:1px solid orange;
-    padding:10px;
-    gap:20px;
-    
-}
 
-.exit{
-    border:1px solid pink;
-    width:20%;
-    height:20%;
-   
-}
-
-.archives{
-    border:1px solid pink;
-    width:20%;
-    height:20%;
-}
 .container{
     display: grid;
     justify-content: center;
     border: 1px solid red;
     padding: 10px;
+    
 }
 
 header{
@@ -31,64 +12,153 @@ header{
     flex-direction: column;
     align-content: center;
     border: 1px solid blue;
-    width: 100%;
-    height: auto;
     padding: 10px;
     margin-bottom:3px;
+    width:100%;
+    height: auto;
+   
 }
 
 .banner{
-    border: 1px solid green;
+    
     margin-bottom:3px;
+    background-image: url(assets/images/forest-rescaled.JPG);
+    
 }
 
-nav{
-    
+nav{    
     border: 1px solid green;
 }
 
 ul{
     display: grid;
     justify-content: center;
-    grid-template-columns:repeat(5,1fr);
-    
     list-style: none;    
 }
 
 main{
     border: 1px solid blue;
-    width: 100%;
-    height: auto;
     padding: 10px;
     margin-bottom:3px;
+    width:100%;
+    height: auto;
 }
 
 .main-container{
-    display: flex;
-    flex-direction: row;
-    border: 1px solid purple;
+    
+    border: 3px solid purple;
     width: auto;
     height: auto;
     padding: 10px;
+    background-image: url(assets/images/forest-rescaled.JPG);
 }
 
 .content{
     border: 1px solid green;
     margin-left:10px;
     margin-right:10px;
+    padding: 10px;
+    background-color: white;
 }
 
-.left{
-    border:1px solid green;
-}
 
-.right{
-    border: 1px solid green;
-}
 
 footer{
     border: 1px solid blue;
-    width: 100%;
-    height: auto;
     padding: 10px;
+    width:100%;
+    height: auto;
+   
+}
+
+@media (min-width:300px){
+    ul{   
+    grid-template-columns:repeat(2,1fr);    
+    list-style: none;    
+    }
+    
+    .left{
+        display:none;
+    }
+
+    .right{
+        display:none;
+    }
+    
+}
+
+@media (min-width:600px){
+    ul{
+        grid-template-columns:repeat(3,1fr);       
+    }
+
+    .main-container{
+        display: flex;
+        flex-direction: row;
+    }
+    .left{
+    display:block;
+    border-radius:50%;
+    width:20%;
+    height:20%;
+    background-image: url(assets/images/path-deer-resized.PNG);
+    object-fit: contain;
+    object-position: top;
+
+    }
+    .left:hover{
+        box-shadow: 0px 0px 40px white;
+    }
+
+    .right{
+        display:block;
+        border-radius:50%;
+        width:20%;
+        height:20%;
+        background-image: url(assets/images/cave-resized.jpg);
+        object-fit: contain;
+        object-position: top;
+    }
+
+    .right:hover{
+        box-shadow: 0px 0px 40px white;
+    }
+    
+}
+
+@media (min-width:900px){
+    ul{
+        grid-template-columns:repeat(5,1fr);  
+    }
+    .main-container{
+        display: flex;
+        flex-direction: row;
+    }
+    .left{
+    border-radius:50%;
+    width:20%;
+    height:20%;
+    background-image: url(assets/images/path-deer-resized.PNG);
+    object-fit: contain;
+    object-position: top;
+
+}
+    .left:hover{
+        box-shadow: 0px 0px 40px white;
+    }
+
+    .right{
+        border-radius:50%;
+        width:20%;
+        height:20%;
+        background-image: url(assets/images/cave-resized.jpg);
+        object-fit: contain;
+        object-position: top;
+    }
+
+    .right:hover{
+        box-shadow: 0px 0px 40px white;
+    }
+
+    
 }
