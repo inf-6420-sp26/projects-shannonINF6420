@@ -61,6 +61,25 @@ main{
     background-color: white;
 }
 
+.handheld{
+    display:grid;    
+    grid-template-columns: repeat(2, 1fr);    
+    justify-items: center;
+    width:100%;
+    height: auto;
+    border: 1px solid green;
+}
+
+.handheld-exit{ 
+    border: 1px solid purple;
+    margin: 30px;
+    
+}
+
+.handheld-archives{
+    border: 1px solid purple;
+    margin:30px;
+}
 
 
 footer{
@@ -76,7 +95,30 @@ footer{
     grid-template-columns:repeat(2,1fr);    
     list-style: none;    
     }
-    
+
+    .handheld{
+        margin-bottom:30px;
+    }
+    .handheld-archives{
+        display:block;
+        border-radius:70%;
+        width:40%;
+        height:70%;
+        background-image: url(assets/images/cave-resized.jpg);
+        object-fit: contain;
+       
+
+    }
+    .handheld-exit{
+        display: block;
+        border-radius:70%;
+        width:40%;
+        height:70%;
+        background-image: url(assets/images/path-deer-resized.PNG);
+        object-fit: contain;
+        
+    }
+
     .left{
         display:none;
     }
@@ -96,6 +138,14 @@ footer{
         display: flex;
         flex-direction: row;
     }
+
+    .handheld-archives{
+        display:none;
+    }
+    .handheld-exit{
+        display: none;
+    }
+
     .left{
     display:block;
     border-radius:50%;
@@ -133,6 +183,12 @@ footer{
     .main-container{
         display: flex;
         flex-direction: row;
+    }
+     .handheld-archives{
+        display:none;
+    }
+    .handheld-exit{
+        display: none;
     }
     .left{
     border-radius:50%;
